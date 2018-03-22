@@ -1,10 +1,10 @@
 {
   "name": "@a-neesh/npm-ws",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Workspace for node projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "a-neesh",
   "license": "ISC",
@@ -23,7 +23,5 @@
     "url": "https://github.com/a-neesh/npm_repo/issues"
   },
   "homepage": "https://github.com/a-neesh/npm_repo#readme",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  "dependencies": {}
 }
