@@ -1,0 +1,29 @@
+{
+  "name": "@a-neesh/npm-ws",
+  "version": "1.0.0",
+  "description": "The Workspace for node projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "a-neesh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-neesh/npm_repo.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "npm",
+    "node",
+    "js",
+    "first"
+  ],
+  "bugs": {
+    "url": "https://github.com/a-neesh/npm_repo/issues"
+  },
+  "homepage": "https://github.com/a-neesh/npm_repo#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
