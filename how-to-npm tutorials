@@ -1,0 +1,50 @@
+help:
+    npm help
+    npm help <commandname>
+updates npm:
+    npm install npm -g
+initialixze npm:
+    npm init
+npm login:
+    npm whoami
+    npm adduser
+setting git:
+    git init
+start a project:
+    npm init --scope=<username>
+install a dependency:
+    npm install <modulename> (example @linclark/pkg)
+while installing, etc also update the package.json:
+    npm install <modulename> --save
+list all dependencies
+    npm ls
+testing:
+    <package.json> - "test": "node <test-file>.js"
+    npm test
+publish:
+    npm publish
+verion number:
+    Semantic Version - http://semver.org
+    1.2.3
+    ^ ^ ^
+    | | `-- Patch version. Update for every change.
+    | `---- Minor version. Update for API additions.
+    `------ Major version. Update for breaking API changes.
+npm version updating:
+    npm version
+    manually in package.json (change version number before updating)
+changing distibrution tag:
+    npm dist-tag add pkg@1.0.1 beta
+    npm dist-tag rm pkg@1.0.1
+    default is latest, which always point to some version or other
+    always latest version is downloaded, so change tag latest as needed
+list outdated packages:
+    npm outdated
+update to latest(tag):
+    npm update
+uninstall or remove:
+    npm rm --save
+    npm uninstall --save
+    --save makes sure that even after the dep has been removed, we still
+    don't depend on it by removing it from package.json
+view https://www.npmjs.com/ for more.
